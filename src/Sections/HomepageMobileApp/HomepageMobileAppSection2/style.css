@@ -1,0 +1,17 @@
+.P1S2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.P1S2UpPart{
+    color:  #858A8F;
+    margin-top: 67px;  
+    padding-left: 100px;
+}
+
+.P1S2DownPart{
+    margin: 33px 0px 73px 0px;
+    display: flex;
+    justify-content: space-around;
+}

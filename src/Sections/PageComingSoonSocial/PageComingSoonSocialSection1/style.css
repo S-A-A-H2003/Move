@@ -1,0 +1,27 @@
+.PageComingSoonSocial{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+}
+.S1ListImg{
+        display: flex;
+}
+.S1ListImg li{
+    list-style-type: none;
+    margin-left: 34px;
+    background-color:rgba(229, 241, 255, 0.2);
+    border-radius: 50%;
+    width: 103px;
+    height: 101px;
+
+}
+.S1ListImg li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     
+}
+

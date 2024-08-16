@@ -1,0 +1,27 @@
+.P1S3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;   
+}
+.P1S3LeftSide{
+    margin-top: 34px;
+}
+.P1S3RightSide{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 144px 0px 144px 0px;
+}
+
+.P1S3RightSide div{
+    margin: 0px 33px 33px 33px;  
+}
+.P1S3RightSide img{
+    padding: 32px 0px 18px 31px;
+}
+.P1S3RightSide h4{
+    margin: px 0px 19px 31px; 
+}
+
+
+

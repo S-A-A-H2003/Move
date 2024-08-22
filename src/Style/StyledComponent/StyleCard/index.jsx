@@ -4,6 +4,7 @@ export const StyleCard = styled.div`
     height: ${({height})=>height?height:'330'}px;
     border-radius:${({borderradius})=>borderradius?borderradius:'5'}px ;
     background-color: ${({backgroundcolor})=>backgroundcolor?backgroundcolor:'#FFFFFF'};
+    border:${({border})=>border?border:''} ;
   
 
 `;

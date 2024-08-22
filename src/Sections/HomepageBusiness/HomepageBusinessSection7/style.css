@@ -1,0 +1,30 @@
+.P2S7Part1{
+    padding: 108px 326px 0px 326px;
+    text-align: center;
+}
+.P2S7Part1 .P2S7Part1_1{
+    margin-bottom: 35px;
+}
+.P2S7Part1 .P2S7Part1_2{
+    line-height: 35px;
+}
+.P2S7Part2{
+    margin: 54px 545px 73px 545px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.P2S7Part2 img{
+    margin-left: 23px;
+    margin-right: 23px;
+
+}
+.P2S7Part3{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 121px;
+    
+    
+}
+

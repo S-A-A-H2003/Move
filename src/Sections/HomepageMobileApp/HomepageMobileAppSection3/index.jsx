@@ -3,90 +3,60 @@ import './style.css'
 
 //Style
 import { Continer } from '../../../Style/StyledComponent/Continer'
-import { BodyText, Display2, H4, SmallText } from '../../../Style/Typograpy/Typo'
+import { H4, SmallText } from '../../../Style/Typograpy/Typo'
 
 //Component
 import Card from '../../../Component/Card'
-import Info from '../../../Component/Info/index'
 
 //Asset
-import icon1 from '../../../Asset/Images/P1/P1S3/icon-6.png'
-import icon2 from '../../../Asset/Images/P1/P1S3/icon-5.png'
-import icon3 from '../../../Asset/Images/P1/P1S3/icon-4.png'
-import icon4 from '../../../Asset/Images/P1/P1S3/icon-3.png'
+import icon1 from '../../../Asset/Images/P2/P2S3/icon-3 (1).png'
+import icon2 from '../../../Asset/Images/P2/P2S3/icon-2 (1).png'
+import icon3 from '../../../Asset/Images/P2/P2S3/icon.png'
+
 
 
 
 export default function HomepageMobileAppSection3() {
   return (
     <>
-        <Continer  className="P1S3" backgroundcolor='#F5F6FA'> 
-            <Continer className="P1S3RightSide"  height='692' width='604'>
+        <Continer  className="P2S3" backgroundcolor='#F5F6FA' height={'549'}> 
+
                   <Card 
-                  widthbody={233}
-                  heightbody={114}
+                  widthcard={392}
+                  heightcard={322}
                   src={icon1} 
-                  textheadar={<H4>End-to-End</H4>} 
-                  textbody={<SmallText>Our messenger uses only<br/> proven technologies.<br/> There fore, no one will<br/> read your messages.</SmallText>}
+                  textheadar={<H4>Import Music Library</H4>} 
+                  textbody={<SmallText>You can easily import your music<br/> library into our app without having to<br/> search for music again.</SmallText>}
                   colorbody={'#858A8F'}
-                  style
+                  Shaps={1}
                   >
                     
 
                   </Card>
 
                   <Card
-                  widthbody={236}
-                  heightbody={116} 
+                  widthcard={392}
+                  heightcard={322} 
                   src={icon2} 
-                  textheadar={<H4>Voice Message</H4>} 
-                  textbody={<SmallText>When you dont have time<br/> to write a text, send your<br/> companion a voice<br/> message.</SmallText>}
+                  textheadar={<H4>Music Without Internet</H4>} 
+                  textbody={<SmallText>Listen to music even when you don't<br/> have Internet access by downloading<br/> it to your smartphone.</SmallText>}
                   colorbody={'#858A8F'}
-                  style
+                  Shaps={1}
                   > 
 
                   </Card>
 
                   <Card 
-                  widthbody={233}
-                  heightbody={120}
+                  widthcard={392}
+                  heightcard={322}
                   src={icon3} 
-                  textheadar={<H4>News Widget</H4>} 
-                  textbody={<SmallText>All the news of the world is<br/> at hand, our messenger<br/> has a pre-installed news<br/> widget.</SmallText>}
+                  textheadar={<H4>Music Without Limits</H4>} 
+                  textbody={<SmallText>There are no restrictions on listening to<br/> music in our app, enjoy music<br/> everywhere.</SmallText>}
                   colorbody={'#858A8F'}
-                  style
+                  Shaps={1}
                   >
 
                   </Card>
-
-                  <Card
-                  widthbody={236}
-                  heightbody={120} 
-                  src={icon4} 
-                  textheadar={<H4>Tags</H4>} 
-                  textbody={<SmallText>Place messages in existing<br/> tags or create new ones.<br/> Using tags makes<br/> interaction easier.</SmallText>}
-                  colorbody={'#858A8F'}
-                  style
-                  >
-
-                  </Card>
-
-            </Continer>
-            <Continer className="P1S3LeftSide"  height='459' width='489'>
-                  <Info
-                  colorbody={'#858A8F'}
-                  widthheadar={'489'}
-                  heightheadar={'219'}
-                  widthbody={'440'}
-                  heightbody={'105'}
-                  textheadar={<Display2>Try the familiar<br/> functions in the<br/> new execution</Display2>}
-                  textbody={<BodyText>The very functions that help you in everyday<br/> life are already built into our messenger and<br/> are not just built in but invented anew.</BodyText>}
-                  textbutton={'Get Started'}
-                  
-                  ></Info>
-
-            </Continer>
-           
             
         </Continer>
     </>

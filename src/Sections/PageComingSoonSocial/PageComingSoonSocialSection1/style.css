@@ -24,4 +24,8 @@
     align-items: center;
      
 }
+.S1ListImg li:hover{
+    transition: 0.5s ease-in;
+    transform: scale(1.1);
+}
 

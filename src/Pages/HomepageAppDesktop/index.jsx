@@ -1,4 +1,4 @@
-import '../HomepageAppDesktop/style.css'
+import './style.css'
 
 //Section
 import Header from '../../Component/Header';
@@ -21,7 +21,7 @@ export default function HomepageAppDesktop() {
         <HomepageAppDesktopSection4></HomepageAppDesktopSection4>
         <HomepageAppDesktopSection5></HomepageAppDesktopSection5>
         <HomepageAppDesktopSection6></HomepageAppDesktopSection6>
-        <Footer Shape={'Shape1'}></Footer>
+        <Footer Shape={1}></Footer>
         
     </div>
   )

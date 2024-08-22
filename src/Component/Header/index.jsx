@@ -15,6 +15,7 @@ import iconchevronup from '../../Asset/Images/Header/icon-chevron-up.png'
 
 //Librari
 import { NavLink } from 'react-router-dom'
+import { PATH } from '../../Constants/Route'
 
 
 export default class Header extends Component {
@@ -65,23 +66,26 @@ export default class Header extends Component {
                             <List
                             color={'#FFFFFF'}
                             text={<BodyText>Desktop App</BodyText>}
-                            to='/'
+                            to={PATH.AppDesktop}
                             ></List>
                             <List
                             color={'#FFFFFF'}
                             text={<BodyText>Mobile App</BodyText>}
-                            to='/HomepageMobileApp'
+                            to={PATH.MobileApp}
                             ></List>
                             <List
                             color={'#FFFFFF'}
-                            text={<BodyText>SaaS</BodyText>}></List>
+                            text={<BodyText>SaaS</BodyText>}
+                            to={PATH.Business}
+                            ></List>
+                            
                             <List
                             color={'#FFFFFF'}
                             text={<BodyText>Event</BodyText>}></List>
                             <List
                             color={'#FFFFFF'}
                             text={<BodyText>Software</BodyText>}
-                            to='/HomepageSoftware'
+                            to={PATH.Software}
                             ></List>
                            
                         </ul>
@@ -100,17 +104,17 @@ export default class Header extends Component {
                             <List
                             color={'#FFFFFF'}
                             text={<BodyText>About Us</BodyText>}
-                            to='/PageAboutUs'
+                            to={PATH.AboutUs}
                             ></List>
                             <List
                             color={'#FFFFFF'}
                             text={<BodyText>Careers</BodyText>}
-                            to='/PageCareers'
+                            to={PATH.Careers}
                             ></List>
                             <List
                             color={'#FFFFFF'}
                             text={<BodyText>Case Studies</BodyText>}
-                            to='/PageCaseStudies'
+                            to={PATH.CaseStudies}
                             ></List>
                             <List
                             color={'#FFFFFF'}
@@ -120,12 +124,12 @@ export default class Header extends Component {
                                 <List
                                 color={'#FFFFFF'}
                                 text={<BodyText>Plans</BodyText>}
-                                to='/PagePricingPlans'
+                                to={PATH.PricingPlans}
                                 ></List>
                                 <List
                                 color={'#FFFFFF'}
                                 text={<BodyText>Plans Table</BodyText>}
-                                to='/PagePricingPlansTable'
+                                to={PATH.PricingPlansTable}
                                 ></List>
                              </ul>
                         </ul>
@@ -147,7 +151,7 @@ export default class Header extends Component {
                             <List
                             color={'#FFFFFF'}
                             text={<BodyText>Blog Article</BodyText>}
-                            to='/PageBlogArticle'
+                            to={PATH.BlogArticle}
                             ></List>
                             <List
                             color={'#FFFFFF'}
@@ -167,12 +171,12 @@ export default class Header extends Component {
                                             <List
                                             color={'#FFFFFF'}
                                             text={<BodyText>Portfolio</BodyText>}
-                                            to='/PagePortfolio'
+                                            to={PATH.Portfolio}
                                             ></List>
                                             <List
                                             color={'#FFFFFF'}
                                             text={<BodyText>Single Case</BodyText>}
-                                            to='/PagePortfolioSingleCase'
+                                            to={PATH.PortfolioSingleCase}
                                             ></List>
                                     </ul> 
                         </div>

@@ -2,20 +2,17 @@ import React from 'react'
 import './style.css'
 import Info from '../../../Component/Info'
 import { Continer } from '../../../Style/StyledComponent/Continer'
-import imgright from '../../../Asset/Images/P1/P1S5/Components-3.png'
-import imgcenter from '../../../Asset/Images/P1/P1S5/Image-11.png'
-import imgleft from '../../../Asset/Images/P1/P1S5/Components-4.png'
+import Img from '../../../Asset/Images/P1/P1S5/Group 14.png'
+
 import { BodyText, Display2 } from '../../../Style/Typograpy/Typo'
 export default function HomepageAppDesktopSection5() {
   return (
     <>
-        <Continer className='sec5'>
-             <div className="leftsidesec5"> 
-                    <img  className='imgleft' src={imgleft} alt=''></img>
-                    <img  className='imgcenter' src={imgcenter} alt=''></img>
-                    <img  className='imgright' src={imgright} alt=''></img>
+        <Continer className='P1S5'>
+                <div className="P1S5LeftSaid"> 
+                    <img  className='imgleft' src={Img} alt=''></img>
                 </div>
-                <div className="rightsidesec5">
+                <div className="P1S5RightSide">
                       <Info
                             colorbody={'#858A8F'}
                             widthheadar={'537'}

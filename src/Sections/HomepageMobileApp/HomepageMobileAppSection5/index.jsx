@@ -1,34 +1,61 @@
 import React from 'react'
 import './style.css'
-import Info from '../../../Component/Info'
+
+//Style
 import { Continer } from '../../../Style/StyledComponent/Continer'
-import imgright from '../../../Asset/Images/P1/P1S5/Components-3.png'
-import imgcenter from '../../../Asset/Images/P1/P1S5/Image-11.png'
-import imgleft from '../../../Asset/Images/P1/P1S5/Components-4.png'
-import { BodyText, Display2 } from '../../../Style/Typograpy/Typo'
+import { Display2, H4, SmallText } from '../../../Style/Typograpy/Typo'
+
+//Component
+import Card from '../../../Component/Card'
+import ContinerText from '../../../Component/ContinerText'
+
+//Asset
+import IconCard1 from '../../../Asset/Images/P2/P1S5/Group 11.png'
+import IconCard2 from '../../../Asset/Images/P2/P1S5/Group 10.png'
+import Img from '../../../Asset/Images/P2/P1S5/Group 8.png'
+
+
 export default function HomepageMobileAppSection5() {
   return (
     <>
-        <Continer className='sec5'>
-             <div className="leftsidesec5"> 
-                    <img  className='imgleft' src={imgleft} alt=''></img>
-                    <img  className='imgcenter' src={imgcenter} alt=''></img>
-                    <img  className='imgright' src={imgright} alt=''></img>
-                </div>
-                <div className="rightsidesec5">
-                      <Info
-                            colorbody={'#858A8F'}
-                            widthheadar={'537'}
-                            heightheadar={'219'}
-                            widthbody={'462'}
-                            heightbody={'140'}
-                            textheadar={<Display2>Move will remind<br/> you when to<br/> complete a task</Display2>}
-                            textbody={<BodyText>You can use our messenger to set reminders for<br/> tasks that you want to complete on time. And<br/> you can choose the importance of tasks using<br/> tags.</BodyText>}
-                            textbutton={'View More'}
-                            
-                        ></Info>
-       
-                </div>
+        <Continer className='P2S5'>
+          <div className="P2S5LeftSaid">
+            <ContinerText
+            className="P2S5LeftSaid1"
+            text={<Display2>Listen and <br/>download music</Display2>}
+            ></ContinerText>
+            <ContinerText
+            className="P2S5LeftSaid2"
+            color={'#858A8F'}
+            text={<SmallText>In our app, you can download music both in the app <br/> that most people listen to. Join them and be in the trend<br/>of new music.</SmallText>}
+            ></ContinerText>
+
+            <Card
+              className="P2S5LeftSaid4"
+              widthcard={'527'}
+              heightcard={'160'}
+              colorbody={'#858A8F'}
+              textheadar={<H4>Downloading in the app</H4>}
+              textbody={<SmallText>Owners of the regular version of Move Music<br/> can only download music in the app and listen to<br/> it without the Internet.</SmallText>}
+              src={IconCard1}
+              Shaps={4}
+              ></Card>
+              <Card
+              className="P2S5LeftSaid5"
+               widthcard={'527'}
+               heightcard={'160'}
+               colorbody={'#858A8F'}
+               textheadar={<H4>Downloading to your smartphone</H4>}
+               textbody={<SmallText>Users of the Move+ subscription can<br/> download music for free to their smartphone to listen <br/>to it without the Internet.</SmallText>}
+               src={IconCard2}
+               Shaps={4}
+              ></Card>
+        
+         </div>
+          <div className="P2S5RightSaid">
+              <img src={Img} alt=''></img>
+          </div>
+
         </Continer>
     </>
   )

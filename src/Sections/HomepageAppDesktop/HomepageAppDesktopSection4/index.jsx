@@ -5,9 +5,7 @@ import '../HomepageAppDesktopSection4/style.css'
 import Info from '../../../Component/Info'
 
 //Asset
-import imgright from '../../../Asset/Images/P1/P1S4/Components-6.png'
-import imgcenter from '../../../Asset/Images/P1/P1S4/Image-16.png'
-import imgleft from '../../../Asset/Images/P1/P1S4/Components-7.png'
+import Img from '../../../Asset/Images/P1/P1S4//Group 13.png'
 
 //Style
 import { Continer } from '../../../Style/StyledComponent/Continer'
@@ -30,11 +28,10 @@ export default function HomepageAppDesktopSection4() {
                             
                     ></Info>
                 </Continer>
-                <Continer className="P1S4RightSide" width='604' height='616'>
-                    <img  className='P1S4ImgLeft' src={imgleft} alt=''></img>
-                    <img  className='P1S4ImgCenter' src={imgcenter} alt=''></img>
-                    <img  className='P1S4ImgRight' src={imgright} alt=''></img>
-                </Continer>
+                <div className="P1S4RightSide" >
+                  <img src={Img} alt="" />
+                    
+                </div>
         </Continer>
     </>
   )

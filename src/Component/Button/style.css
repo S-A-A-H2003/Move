@@ -1,0 +1,8 @@
+.ButtonComponent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ButtonComponent img{
+    margin-right: 10px;
+}

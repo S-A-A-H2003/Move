@@ -1,0 +1,52 @@
+.PageLegalSection1{
+   padding: 252px 293px 192px 310px;
+   line-height: 35px;
+}
+.PageLegalSection1Part2{
+    margin-top: 23px;
+    margin-bottom: 26px;
+
+}
+.PageLegalSection1Part3{
+    margin-bottom: 34px;
+
+}
+.PageLegalSection1Part4{
+    margin-top: 48px;
+    margin-bottom: 10px;
+
+}
+.PageLegalSection1Part6{
+    margin-top: 49px;
+    margin-bottom: 44px;
+
+}
+.PageLegalSection1Part7{
+    margin-bottom: 30px;
+
+}
+.PageLegalSection1Part8{
+    margin-bottom: 49px;
+
+}
+.PageLegalSection1Part9{
+    margin-top: 52px;
+    margin-bottom: 35px;
+
+}
+.PageLegalSection1Part10{
+    margin-bottom: 40px;
+
+}
+hr{
+    color:#F5F6FA;
+}
+@media screen and ( max-width: 1400px){
+    .PageLegalSection1{
+       padding: 252px 40px 0px 40px;
+     }
+     
+
+    
+}
+

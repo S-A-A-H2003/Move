@@ -1,36 +1,66 @@
-import './style.css'
-//component
-import  Button  from '../../../Component/Button/index'
-
-//style
-import { BodyText, H1 } from '../../../Style/Typograpy/Typo'
-import  ContinerText  from '../../../Component/ContinerText/index'
+import Button from '../../../Component/Button'
+import Card from '../../../Component/Card'
+import ContinerText from '../../../Component/ContinerText'
 import { Continer } from '../../../Style/StyledComponent/Continer'
+import { BodyText, Display2, SmallText } from '../../../Style/Typograpy/Typo'
+import './style.css'
+import IconCard from '../../../Asset/Images/P2/P2S1/Checkmark-14.png'
+import Img from '../../../Asset/Images/P2/P2S1/Group 15.png'
 
-//Asset
-import abstractshapesRight from '../../../Asset/Images/P1/P1S1/abstract-shapes-Right.png'
-import abstractshapesleft from '../../../Asset/Images/P1/P1S1/abstract-shapes-left.png'
-import Hero from '../../../Asset/Images/P1/P1S1/Hero.png'
+
+
 
 
 export default function HomepageMobileAppSection1() {
   return (
     <>
-        <Continer className="P1S1">
-            <Continer className="P1S1UpPart" height='646'>
-                <ContinerText width='963' height='194' color='#333333' text={<H1>A messenger that is<br/> ahead of its times</H1>}></ContinerText> 
-                <ContinerText width='813' height='79' color='#858A8F' text={<BodyText>Try the new Move messenger!It will definitely impress you with its amazing features<br/> that will make it easier for you to communicate between you friends.</BodyText>}></ContinerText> 
-                <div className="P1S1Button">
-                    <Button backgroundcolor="#377DFF"  text={<BodyText>Get Started</BodyText>}></Button>
-                    <Button  backgroundcolor="#E5F1FF" color='#377DFF' text={<BodyText>view more</BodyText>}></Button>
-                </div>
-            </Continer>
+        <Continer className="P2S1">
 
-              <Continer className="P1S1DownPart" height='613'>
-                <div><img className="P1S1DwnPartImgLeft" src={abstractshapesleft} alt=''></img></div>
-                <div className='P1S1Shadw'><img className="P1S1DwnPartImgCenter" src={Hero} alt=''></img></div> 
-                <div><img className="P1S1DwnPartImgRight" src={abstractshapesRight} alt=''></img></div>
-              </Continer>
+            <div className="P2S1LeftSaid">
+              <ContinerText
+              className="P2S1LeftSaid1"
+              text={<Display2>Introducing a new<br/> music app Move<br/> Music!</Display2>}
+              ></ContinerText>
+              <ContinerText
+              className="P2S1LeftSaid2"
+              color={'#858A8F'}
+              text={<BodyText>Try the Movie Music app we are sure that it will expand<br/> the boundaries of your musical taste. You can also try the<br/> extended version for free for 14 days.</BodyText>}
+              ></ContinerText>
+              <Button
+              className="P2S1LeftSaid3"
+              width={'318'}
+              height={'66'}
+              text={<BodyText>Start 14 Days Free Trial</BodyText>}
+              ></Button>
+              <ContinerText
+              className="P2S1LeftSaid4"
+              color={'#858A8F'}
+              text={<SmallText>No credit card enquired</SmallText>}
+              ></ContinerText>
+          </div>
+            <div className="P2S1RightSaid">
+              <img  className="P2S1RightSaid1" src={Img} alt=''></img>
+              <Card
+              className="P2S1RightSaid7"
+              widthcard={'363'}
+              heightcard={'113'}
+              textbody={<SmallText>Listen to music even when<br/> there is no Internet!</SmallText>}
+              src={IconCard}
+              Shaps={5}
+              ></Card>
+              <Card
+              className="P2S1RightSaid8"
+               widthcard={'363'}
+               heightcard={'113'}
+               textbody={<SmallText>Import your library from<br/> another app!</SmallText>}
+               src={IconCard}
+               Shaps={5}
+              ></Card>
+
+            </div>
+
+          
+            
         </Continer>
     </>
   )

@@ -1,5 +1,5 @@
 import React from 'react'
-import './style.css'
+import '../Page404Section1/style.css'
 
 //Component
 import Button from '../../../Component/Button'

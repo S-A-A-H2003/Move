@@ -5,5 +5,4 @@ export const Continer = styled.div`
     background-color: ${({backgroundcolor})=>backgroundcolor?backgroundcolor:''};
     border: ${({border})=>border?border:''};
     border-radius: ${({borderradius})=>borderradius?borderradius:''}px;
-
 `;

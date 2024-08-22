@@ -1,67 +1,314 @@
-.Footer{
+
+/* Shape1 */
+
+.Footer1{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
+  
 }
-.FooterPart1{ 
+.Footer1Part1{ 
+    width: 1240px;
+    height: 240px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     background-image: url('../../Asset/Images/Footer/Rectangle-8.png');
     background-repeat: no-repeat;
-    margin-top: 105px;
-    margin-bottom: 140px;
+    margin: 150px 100px 123px 100px;
 }
-
-.FooterPart2{
+.Footer1Part2{
+    margin: 0px 167px 96px 98px;
     display: flex;
-    justify-content: space-evenly;
-    align-items: stretch;
-    margin-bottom: 100px;
 }
-.FooterPart2 ul{
+.Footer1Part2Col1{
+    margin-right: 132px;
+    
+}
+.Footer1Part2Col1 ul li{
     list-style-type: none;
+    
 }
-.FooterPart2 ul li a{
+.Footer1Part2Col1 ul li a{
     text-decoration: none;
+    
 }
-.FooterPart2 ul li{
-    margin-bottom: 19px;
-}
-
-.FooterPart2Shape1{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: stretch;
-    margin-bottom: 100px;
-    margin-top: 131px;
-}
-.FooterPart2Shape1 ul{
+.Footer1Part2Col1Part1 h1{
+    text-decoration: none;
     list-style-type: none;
+    margin-bottom: 24px;
+
 }
-.FooterPart2Shape1 ul li a{
+.Footer1Part2Col1Part1 p{
     text-decoration: none;
+    list-style-type: none;
+    line-height: 35px;
+    margin-bottom: 33px;
 }
-.FooterPart2Shape1 ul li{
-    margin-bottom: 19px;
-}
-.FooterPart2Col1 .FooterPart2Col1Part2{
+.Footer1Part2Col1Part2{
     display: flex;
-    justify-content: space-around;
-    margin-top: 38px;
+}
+.Footer1Part2Col1Part2 li{
+    margin-right: 25px;
+}
+.Footer1Part2Header{
+    padding-bottom: 8px;
 
 }
-.FooterPart2Col1 .FooterPart2Col1Part1 li{
-    margin-top: 23px;
+.Footer1Part2Col2{
+    margin-top: 16px;
+    margin-right: 87px;
 
 }
-.FooterPart3{
-    padding-right: 700px;
+.Footer1Part2Col2 ul li{
+   list-style-type: none;
+   margin-bottom: 19px;
+   
+}
+.Footer1Part2Col2 ul li a{
+   text-decoration: none;
+    
+}
+
+.Footer1Part2Col3{
+    margin-top: 16px;
+    margin-right: 86px;
+
+}
+.Footer1Part2Col3 ul li{
+   list-style-type: none;
+   margin-bottom: 19px;
+   
+}
+.Footer1Part2Col3 ul li a{
+   text-decoration: none;
+    
+}
+.Footer1Part2Col4{
+    margin-top: 16px;
+    margin-right: 98px;
+
+}
+.Footer1Part2Col4 ul li{
+   list-style-type: none;
+   margin-bottom: 19px;
+   
+}
+.Footer1Part2Col4 ul li a{
+   text-decoration: none;
+    
+}
+.Footer1Part2Col5{
+    margin-top: 16px;
+   
+
+}
+.Footer1Part2Col5 ul li{
+   list-style-type: none;
+   margin-bottom: 19px;
+   
+}
+.Footer1Part2Col5 ul li a{
+   text-decoration: none;
+    
+}
+.Footer1Part2Col5 ul li{
+   list-style-type: none;
+   margin-bottom: 19px;
+   
+}
+.Footer1Part2Col5 ul li a{
+   text-decoration: none;
+    
+}
+.Footer1Part3{
     margin-bottom: 144px;
 }
-.FooterPart2Col1Part1 li a div p{
+
+/* Shape2 */
+
+.Footer2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Footer2 .Footer2Part2{
+   display: flex;
+}
+.Footer2 .Footer2Part2 li{
+    list-style-type: none;
+    margin-left: 83px;
+}
+.Footer2 .Footer2Part2 li a{
+    text-decoration: none;
+}
+
+.Footer2 .Footer2Part4{
+    display: flex;
+}
+.Footer2 .Footer2Part4 li{
+    list-style-type: none;
+    margin-left: 24px;
+}
+.Footer2 .Footer2Part5{
+    line-height: 30px;
+}
+.Footer2Part3{
+    display: flex;
+    margin-left: 70px;
+}
+.Footer2Part3 button{
+    margin-right: 32px;
+}
+
+/* Shape3 */
+
+.Footer3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Footer3Part1{
+    margin: 131px 166px 96px 98px;
+    display: flex;
+    
+
+}
+.Footer3Part1Col1{
+    margin-right: 144px;
+    
+}
+.Footer3Part1Col1 ul li{
+    list-style-type: none;
+    
+}
+.Footer3Part1Col1 ul li a{
+    text-decoration: none;
+    
+}
+.Footer3Part1Col1Part1 h1{
+    text-decoration: none;
+    list-style-type: none;
+    margin-bottom: 24px;
+
+}
+.Footer3Part1Col1Part1 p{
+    text-decoration: none;
+    list-style-type: none;
     line-height: 35px;
+    margin-bottom: 33px;
+}
+.Footer3Part2Col1Part2{
+    display: flex;
+}
+.Footer3Part2Col1Part2 li{
+    margin-right: 25px;
+}
+.Footer3Part2Header{
+    padding-bottom: 8px;
+
+}
+.Footer3Part2Col1{
+    margin-top: 16px;
+    margin-right: 87px;
+
+}
+.Footer3Part2Col1 ul li{
+   list-style-type: none;
+   margin-bottom: 19px;
+   
+}
+.Footer3Part2Col1 ul li a{
+   text-decoration: none;
+    
+}
+
+.Footer3Part2Col2{
+    margin-top: 16px;
+    margin-right: 86px;
+
+}
+.Footer3Part2Col2 ul li{
+   list-style-type: none;
+   margin-bottom: 19px;
+   
+}
+.Footer3Part2Col2 ul li a{
+   text-decoration: none;
+    
+}
+.Footer3Part2Col3{
+    margin-top: 16px;
+    margin-right: 98px;
+
+}
+.Footer3Part2Col3 ul li{
+   list-style-type: none;
+   margin-bottom: 19px;
+   
+}
+.Footer3Part2Col3 ul li a{
+   text-decoration: none;
+    
+}
+.Footer3Part2Col4{
+    margin-top: 16px;
+   
+
+}
+.Footer3Part2Col4 ul li{
+   list-style-type: none;
+   margin-bottom: 19px;
+   
+}
+.Footer3Part2Col4 ul li a{
+   text-decoration: none;
+    
+}
+.Footer3Part3{
+    margin-bottom: 144px;
+}
+
+
+
+
+
+@media screen and (max-width:1150px) {
+    .FooterPart1{ 
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-image: none;
+        margin-top: 200px;
+        margin-bottom: 20px;
+    }
+    .FooterPart1 div div h1{ 
+        color: #000;
+        font-size: 30px;
+    }
+    .FooterPart2Shape1{
+        display:grid;
+        justify-items: center;
+        text-align: center;
+    } 
+    .FooterPart2{
+        display: grid;
+        justify-items: center;
+        text-align: center;
+    }
+    .FooterPart2Col1 .FooterPart2Col1Part1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    
+    }
+    .FooterPart2Col1{
+      margin-bottom: 50px;
+    }
+    .FooterPart3{
+        display: none;
+    }
 }
 

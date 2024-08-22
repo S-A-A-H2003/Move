@@ -1,13 +1,12 @@
 import React from 'react'
-import './style.css'
+import '../Page404Section1/style.css'
 
 //Component
 import Button from '../../../Component/Button'
 import ContinerText from '../../../Component/ContinerText'
-
-//Style
 import { Continer } from '../../../Style/StyledComponent/Continer'
 import { BodyText, H1 } from '../../../Style/Typograpy/Typo'
+import { NavLink } from 'react-router-dom'
 
 
 
@@ -31,13 +30,14 @@ export default function Page404Section1() {
         color={'#FFFFFF'}
         text={<BodyText>It appears the page you were looking for couldn’t be found.</BodyText>}
         ></ContinerText>
+        <NavLink to='/'>
         <Button 
         width={'244'}
         height={'66'}
-        backgroundcolor={'rgba(229, 241, 255, 0.2)'}
-        text={<BodyText>Go back to home</BodyText>}
+        backgroundcolor={'#e5f1ff86'}
+        text={ <BodyText>Go back to home</BodyText> }
         ></Button>
-
+        </NavLink>
       </Continer>
     </>
   )

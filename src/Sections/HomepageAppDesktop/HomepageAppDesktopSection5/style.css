@@ -1,19 +1,9 @@
-.sec5{
+.P1S5{
     display: flex;
 }
-.sec5 .rightsidesec5{
+.P1S5 .P1S5LeftSaid{
+  margin: 60px 37px 92px 100px;
+}
+.P1S5 .P1S5RightSide{
    margin: 208px 61px 34px 138px;
-}
-.sec5 .leftsidesec5 .imgright{
- position: absolute;
-   z-index: -999;
-}
-.sec5 .leftsidesec5  .imgcenter{
-    margin: 142px 0px 142px 100px;
-    
-    
-}
-.sec5 .leftsidesec5 .imgleft{
-  position: absolute;
-   z-index: -999;
 }

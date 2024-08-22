@@ -1,3 +1,7 @@
+//Constants
+import { PATH } from '../Constants/Route';
+
+//Pages
 import HomepageAppDesktop from '../Pages/HomepageAppDesktop';
 import HomepageMobileApp from '../Pages/HomepageMobileApp';
 import HomepageBusiness from '../Pages/HomepageBusiness';
@@ -24,26 +28,26 @@ import PageSignUp from '../Pages/PageSignUp';
 
 export const routes=[
     {index:true ,element:<HomepageAppDesktop></HomepageAppDesktop>},
-    {path:'/HomepageMobileApp' ,element:<HomepageMobileApp></HomepageMobileApp>},
-    {path:'/HomepageBusiness',element:<HomepageBusiness></HomepageBusiness>},
-    {path:'/HomepageSoftware' ,element:<HomepageSoftware></HomepageSoftware>},
-    {path:'/Page404',element:<Page404></Page404>},
-    {path:'/PageAboutUs' ,element:<PageAboutUs></PageAboutUs>},
-    {path:'/PageBlogArticle' ,element:<PageBlogArticle></PageBlogArticle>},
-    {path:'/PageCareers' ,element:<PageCareers></PageCareers>},
-    {path:'/PageCareersSingle' ,element:<PageCareersSingle></PageCareersSingle>},
-    {path:'/PageCaseStudies' ,element:<PageCaseStudies></PageCaseStudies>},
-    {path:'/PageCaseStudiesSingle' ,element:<PageCaseStudiesSingle></PageCaseStudiesSingle>},
-    {path:'/PageComingSoonCountdown' ,element:<PageComingSoonCountdown></PageComingSoonCountdown>},                      
-    {path:'/PageComingSoonSocial' ,element:<PageComingSoonSocial></PageComingSoonSocial>},
-    {path:'/PageComingSoonSubscribe' ,element:<PageComingSoonSubscribe></PageComingSoonSubscribe>},
-    {path:'/PageContacts' ,element:<PageContacts></PageContacts>},
-    {path:'/PageLegal' ,element:<PageLegal></PageLegal>},
-    {path:'/PagePortfolio' ,element:<PagePortfolio></PagePortfolio>},
-    {path:'/PagePortfolioSingleCase' ,element:<PagePortfolioSingleCase></PagePortfolioSingleCase>},
-    {path:'/PagePricingPlans' ,element:<PagePricingPlans></PagePricingPlans>},
-    {path:'/PagePricingPlansTable' ,element:<PagePricingPlansTable></PagePricingPlansTable>},
-    {path:'/PageRecoverPassword' ,element:<PageRecoverPassword></PageRecoverPassword>},
-    {path:'/PageSignIn' ,element:<PageSignIn></PageSignIn>},
-    {path:'/PageSignUp' ,element:<PageSignUp></PageSignUp>},
+    {path:PATH.MobileApp ,element:<HomepageMobileApp></HomepageMobileApp>},
+    {path:PATH.Business,element:<HomepageBusiness></HomepageBusiness>},
+    {path:PATH.Software ,element:<HomepageSoftware></HomepageSoftware>},
+    {path:PATH.Eror404,element:<Page404></Page404>},
+    {path:PATH.AboutUs ,element:<PageAboutUs></PageAboutUs>},
+    {path:PATH.BlogArticle ,element:<PageBlogArticle></PageBlogArticle>},
+    {path:PATH.Careers ,element:<PageCareers></PageCareers>},
+    {path:PATH.CareersSingle ,element:<PageCareersSingle></PageCareersSingle>},
+    {path:PATH.CaseStudies ,element:<PageCaseStudies></PageCaseStudies>},
+    {path:PATH.CaseStudiesSingle ,element:<PageCaseStudiesSingle></PageCaseStudiesSingle>},
+    {path:PATH.ComingSoonCountdown ,element:<PageComingSoonCountdown></PageComingSoonCountdown>},                      
+    {path:PATH.ComingSoonSocial ,element:<PageComingSoonSocial></PageComingSoonSocial>},
+    {path:PATH.ComingSoonSubscribe ,element:<PageComingSoonSubscribe></PageComingSoonSubscribe>},
+    {path:PATH.Contacts ,element:<PageContacts></PageContacts>},
+    {path:PATH.Legal ,element:<PageLegal></PageLegal>},
+    {path:PATH.Portfolio ,element:<PagePortfolio></PagePortfolio>},
+    {path:PATH.PortfolioSingleCase ,element:<PagePortfolioSingleCase></PagePortfolioSingleCase>},
+    {path:PATH.PricingPlans ,element:<PagePricingPlans></PagePricingPlans>},
+    {path:PATH.PricingPlansTable ,element:<PagePricingPlansTable></PagePricingPlansTable>},
+    {path:PATH.RecoverPassword ,element:<PageRecoverPassword></PageRecoverPassword>},
+    {path:PATH.SignIn ,element:<PageSignIn></PageSignIn>},
+    {path:PATH.SignUp ,element:<PageSignUp></PageSignUp>},
   ]

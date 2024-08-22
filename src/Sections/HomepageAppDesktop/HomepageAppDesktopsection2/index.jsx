@@ -15,7 +15,7 @@ import spotify from '../../../Asset/Images/P1/P1S2/spotify.png'
 export default function HomepageAppDesktopsection2() {
   return (
     <>
-        <Continer className='P1S2' height='249'>
+        <Continer className='P1S2'>
             <Continer className="P1S2UpPart" height='29' width='572'>
                <SmallText>Companies that have already tried our messenger</SmallText> 
             </Continer>

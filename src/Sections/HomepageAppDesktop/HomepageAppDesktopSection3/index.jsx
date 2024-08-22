@@ -29,7 +29,7 @@ export default function HomepageAppDesktopSection3() {
                   textheadar={<H4>End-to-End</H4>} 
                   textbody={<SmallText>Our messenger uses only<br/> proven technologies.<br/> There fore, no one will<br/> read your messages.</SmallText>}
                   colorbody={'#858A8F'}
-                  style
+                  Shaps={1}
                   >
                     
 
@@ -42,7 +42,7 @@ export default function HomepageAppDesktopSection3() {
                   textheadar={<H4>Voice Message</H4>} 
                   textbody={<SmallText>When you dont have time<br/> to write a text, send your<br/> companion a voice<br/> message.</SmallText>}
                   colorbody={'#858A8F'}
-                  style
+                  Shaps={1}
                   > 
 
                   </Card>
@@ -54,7 +54,7 @@ export default function HomepageAppDesktopSection3() {
                   textheadar={<H4>News Widget</H4>} 
                   textbody={<SmallText>All the news of the world is<br/> at hand, our messenger<br/> has a pre-installed news<br/> widget.</SmallText>}
                   colorbody={'#858A8F'}
-                  style
+                  Shaps={1}
                   >
 
                   </Card>
@@ -66,7 +66,7 @@ export default function HomepageAppDesktopSection3() {
                   textheadar={<H4>Tags</H4>} 
                   textbody={<SmallText>Place messages in existing<br/> tags or create new ones.<br/> Using tags makes<br/> interaction easier.</SmallText>}
                   colorbody={'#858A8F'}
-                  style
+                  Shaps={1}
                   >
 
                   </Card>

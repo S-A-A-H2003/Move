@@ -1,3 +1,13 @@
+.CardShape1 img{
+    padding: 32px 0px 18px 31px;
+}
+.CardShape1 div{
+    margin: 0px 33px 33px 33px;  
+    line-height: 30px;
+}
+.CardShape2{
+    display: flex;
+}
 .Card3{
     display: flex;
     flex-direction: column;
@@ -13,4 +23,98 @@
     margin-top: 6px;
     
 }
+
+.CardShape4{
+    display: flex;
+}
+.CardShape4 img{
+    margin-right: 32px;
+    width: 74px;
+    height: 74px;
+}
+.CardShape4 div{
+    margin-bottom: 24px;
+    line-height: 35px;
+   
+}
+.CardShape5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.CardShape5 img{
+    margin-right: 29px;
+}
+.Card6{
+    display: flex;
+}
+.Card6Part1{
+    margin: 21px 73px 22px 22px;
+}
+.Card6Part2{
+    margin: 66px 80px 64px 22px;
+}
+.Card6Part2 .Card6Part2_1{
+    margin-bottom: 9px;
+}
+.Card6Part2 .Card6Part2_2{
+    margin-bottom: 32px;
+}
+.Card6Part2 .Card6Part2_3{
+    line-height: 35px;
+}
+.Card7Part1{
+    margin: 50px 0px 12px 38px;
+
+}
+.Card7Part2{
+    margin: 0px 0px 15px 36px;
+
+}
+.Card7Part3{
+    margin: 0px 0px 52px 38px;
+
+}
+.Card7Part4 {
+    display: flex;
+    margin: 0px 0px 20px 38px;
+
+}
+.Card7Part4 img{
+    margin-right: 17px;
+
+}
+.Card7Part5 img{
+    margin-right: 17px;
+
+}
+.Card7Part6 img{
+    margin-right: 17px;
+
+}
+.Card7Part7 img{
+    margin-right: 17px;
+
+}
+.Card7Part5 {
+    display: flex;
+    margin: 0px 0px 20px 38px;
+
+}
+.Card7Part6 {
+    display: flex;
+    margin: 0px 0px 20px 38px;
+
+}
+.Card7Part7 {
+    display: flex;
+    margin: 0px 0px 56px 38px;
+
+}
+
+.Card7Part8{
+    margin: 0px 0px 39px 38px;
+}
+
 

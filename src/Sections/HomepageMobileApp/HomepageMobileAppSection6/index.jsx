@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './style.css'
 
 //Component
@@ -7,93 +7,120 @@ import ContinerText from '../../../Component/ContinerText'
 
 //style
 import { Continer } from '../../../Style/StyledComponent/Continer'
-import { BodyText, Display2, SmallText } from '../../../Style/Typograpy/Typo'
+import { BodyText, Display2, H5, SmallText } from '../../../Style/Typograpy/Typo'
 
 //Asset
-import iconarrowright from '../../../Asset/Images/P1/P1S6/icon-arrow-right.png'
-import Avatar1 from '../../../Asset/Images/P1/P1S6/Avatar-8.png'
-import Avatar2 from '../../../Asset/Images/P1/P1S6/Avatar-10.png'
-import Avatar3 from '../../../Asset/Images/P1/P1S6/Avatar-4.png'
-import Start from '../../../Asset/Images/P1/P1S6/star-6.png'
+import  Control_Left from '../../../Asset/Images/P2/P2S6/Control_Left.png'
+import  Control_Right from '../../../Asset/Images/P2/P2S6/Control_Right.png'
+import  Img from '../../../Asset/Images/Mock/Avatar-3.png'
+
+
+//MockData
+import {DataCustomersSlider} from '../../../Mock/DataCustomersSlider/index'
 
 export default function HomepageMobileAppSection6() {
+
+  //////////////////////DataSlider//////////////////////////////
+  const [data]=useState(DataCustomersSlider);
+  const [slider,setSlider]=useState(1);
+  const Increment=()=>{
+    setSlider(data.length>slider?slider+1:1)
+    
+  }
+  const Decrement=()=>{
+    setSlider(slider>=2?slider-1:slider)
+  }
+  const SliderFilter =data.find((item)=>item.id===slider)
+  //////////////////////////////////////////////////////////////
+
   return (
     <>
-        <Continer backgroundcolor={'#F5F6FA'} className='P1S6' >
-            <Continer width='783' height='146' className='P1S6Part1'>
+     
+    
+        <Continer backgroundcolor={'#F5F6FA'} className='P2S6' >
+            <div className='P2S6Part1'>
                 <ContinerText 
-                 width={'783'}
-                 height={'146'}
-                 text={<Display2>Customers are loving our<br/> Move messenger</Display2>}
+                className='P2S6Part1_1'
+                 text={<Display2>Customers are loving our<br/> Move Music</Display2>}
                  >
                 </ContinerText>
-            </Continer>
-            <Continer width='1240' height='386' className='P1S6Part2'>
-                <Card
-                 widthcard={'392'}
-                 heightcard={'386'}
-                 srcheader={Avatar1}
-                 textheadar={<BodyText>Alpamys Moldashev</BodyText>}
-                 textbody1={<SmallText>Graphic Designer</SmallText>}
-                 colorbody1={'#858A8F'}
-                 textbody2={<BodyText>With the Move messenger I can<br/> correspond with clients from all<br/> over the world and never forget<br/> about important meetings.</BodyText>}
-                 colorbody2={'#858A8F'}
-                 widthbody2={'317'}
-                 heightbody2={'138'}
-                 start1={Start}
-                 start2={Start}
-                 start3={Start}
-                 start4={Start}
-                 start5={Start}              
-                ></Card>
-
-                <Card
-                 widthcard={'392'}
-                 heightcard={'386'}
-                 srcheader={Avatar2}
-                 textheadar={<BodyText>Bogdan Krivenchenko</BodyText>}
-                 textbody1={<SmallText>UI/UX Designer</SmallText>}
-                 colorbody1={'#858A8F'}
-                 textbody2={<BodyText>Move messenger helps me a lot<br/> in performing normal tasks with<br/> reminders. It looks great and is<br/> easy to use!</BodyText>}
-                 colorbody2={'#858A8F'}
-                 widthbody2={'321'}
-                 heightbody2={'140'}
-                 start1={Start}
-                 start2={Start}
-                 start3={Start}
-                 start4={Start}
-                 start5={Start}              
-                ></Card>
-
-                <Card
-                 widthcard={'392'}
-                 heightcard={'386'}
-                 srcheader={Avatar3}
-                 textheadar={<BodyText>Sergey Filatov</BodyText>}
-                 textbody1={<SmallText>CEO at Mindset</SmallText>}
-                 colorbody1={'#858A8F'}
-                 textbody2={<BodyText>Move messenger is just a bomb!<br/> On it I have the opportunity to<br/> lead my own design community<br/> and share up to date information.</BodyText>}
-                 colorbody2={'#858A8F'}
-                 widthbody2={'321'}
-                 heightbody2={'140'}
-                 start1={Start}
-                 start2={Start}
-                 start3={Start}
-                 start4={Start}
-                 start5={Start}    
-                ></Card>
-
-            </Continer>
-            <Continer width='214' height='24' className='P1S6Part3'>
                 <ContinerText 
-                    width={'182'}
-                    height={'24'}
-                    text={<BodyText>See all testmonials</BodyText>}
-                    color={'#397EFF'}
-                    > 
+                className='P2S6Part1_2'
+                color={'#858A8F'}
+                 text={<BodyText>Read the reviews that we regularly receive from users of our music app. We are<br/> proud to have created a product that gives a vivid impression.</BodyText>}
+                 >
                 </ContinerText>
-                 <img src={iconarrowright} alt=''></img>
-            </Continer>
+            </div>
+            <div className='P2S6Part2'>
+                <img className='P2S6Part2Button1' onClick={Decrement} src={Control_Left} alt="" />
+                    <Card
+                    widthcard={'816'}
+                    heightcard={'362'}
+                    src={Img}
+                    textheadar={<H5>{SliderFilter.textheadar}</H5>}
+                    textbody1={<SmallText>{SliderFilter.textbody1}</SmallText>}
+                    colorbody1={'#858A8F'}
+                    textbody2={<BodyText>{SliderFilter.textbody2}</BodyText>}
+                    colorbody2={'#858A8F'}  
+                    Shaps={6}       
+                   ></Card>
+              
+                <img className='P2S6Part2Button2' onClick={Increment} src={Control_Right} alt="" />
+
+               
+            </div>
+            <div className='P2S6Part3'>
+
+              <div className="P2S6Part3_1">
+                <ContinerText
+                className="P2S6Part3_Full1"
+                color={'#2DCA8C'}
+                text={<Display2>900K+</Display2>}
+                ></ContinerText>
+                 <ContinerText
+                className="P2S6Part3_Full2"
+                text={<H5>Active Users</H5>}
+                ></ContinerText>
+                 <ContinerText
+                className="P2S6Part3_Full3"
+                color={'#858A8F'}
+                text={<BodyText>We are proud to provide our<br/> music app to so many people.</BodyText>}
+                ></ContinerText>
+              </div>
+              <div className="P2S6Part3_2">
+              <ContinerText
+                className="P2S6Part3_Full1"
+                color={'#FFBE3D'}
+                text={<Display2>2M+</Display2>}
+                ></ContinerText>
+                 <ContinerText
+                  className="P2S6Part3_Full2"
+                text={<H5>Downloads</H5>}
+                ></ContinerText>
+                 <ContinerText
+                 className="P2S6Part3_Full3"
+                color={'#858A8F'}
+                text={<BodyText>Our app has been downloaded<br/> by more than 2 million people.</BodyText>}
+                ></ContinerText>
+              </div>
+              <div className="P2S6Part3_3">
+              <ContinerText
+                className="P2S6Part3_Full1"
+                color={'#FF715B'}
+                text={<Display2>99.99%</Display2>}
+                ></ContinerText>
+                 <ContinerText
+                 className="P2S6Part3_Full2"
+                text={<H5>Positive feedback</H5>}
+                ></ContinerText>
+                 <ContinerText
+                 className="P2S6Part3_Full3"
+                color={'#858A8F'}
+                text={<BodyText>We get mostly positive ratings for<br/>the quality of our app.</BodyText>}
+                ></ContinerText>
+              </div>
+            
+            </div>
         </Continer>
 
     </>

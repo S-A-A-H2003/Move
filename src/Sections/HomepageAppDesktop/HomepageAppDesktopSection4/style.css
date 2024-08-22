@@ -1,22 +1,10 @@
 .P1S4{
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .P1S4LeftSide{
  margin:200px 0px 43px 100px;
 }
-.P1S4RightSide .P1S4ImgRight{
-   position: absolute;
-   top:3000px;
-   right: 35px; 
-   z-index: -999;
-}
-.P1S4RightSide  .P1S4ImgCenter{ 
-  margin:142px 100px 0px 0px;   
-}
-.P1S4RightSide .P1S4ImgLeft{
-    position: absolute;
-    top:3000px;
-    right: 374px;
-    z-index: -999; 
-}
+
 

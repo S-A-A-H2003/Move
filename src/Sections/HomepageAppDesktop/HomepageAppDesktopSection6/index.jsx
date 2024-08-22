@@ -32,7 +32,7 @@ export default function HomepageAppDesktopSection6() {
                 <Card
                  widthcard={'392'}
                  heightcard={'386'}
-                 srcheader={Avatar1}
+                 src={Avatar1}
                  textheadar={<BodyText>Alpamys Moldashev</BodyText>}
                  textbody1={<SmallText>Graphic Designer</SmallText>}
                  colorbody1={'#858A8F'}
@@ -44,13 +44,14 @@ export default function HomepageAppDesktopSection6() {
                  start2={Start}
                  start3={Start}
                  start4={Start}
-                 start5={Start}              
+                 start5={Start} 
+                 Shaps={3}             
                 ></Card>
 
                 <Card
                  widthcard={'392'}
                  heightcard={'386'}
-                 srcheader={Avatar2}
+                 src={Avatar2}
                  textheadar={<BodyText>Bogdan Krivenchenko</BodyText>}
                  textbody1={<SmallText>UI/UX Designer</SmallText>}
                  colorbody1={'#858A8F'}
@@ -62,13 +63,14 @@ export default function HomepageAppDesktopSection6() {
                  start2={Start}
                  start3={Start}
                  start4={Start}
-                 start5={Start}              
+                 start5={Start}
+                 Shaps={3}                
                 ></Card>
 
                 <Card
                  widthcard={'392'}
                  heightcard={'386'}
-                 srcheader={Avatar3}
+                 src={Avatar3}
                  textheadar={<BodyText>Sergey Filatov</BodyText>}
                  textbody1={<SmallText>CEO at Mindset</SmallText>}
                  colorbody1={'#858A8F'}
@@ -80,7 +82,8 @@ export default function HomepageAppDesktopSection6() {
                  start2={Start}
                  start3={Start}
                  start4={Start}
-                 start5={Start}    
+                 start5={Start} 
+                 Shaps={3}     
                 ></Card>
 
             </Continer>

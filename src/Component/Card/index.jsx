@@ -209,8 +209,8 @@ if(Shaps===4)
                           <ContinerText className='Card7Part2' color={colorheadar2} text={textheadar2}></ContinerText>
                           <ContinerText className='Card7Part3' color={colorheadar3} text={textheadar3} ></ContinerText>
                           <div className='Card7Part4'><img src={src1} alt="" /><ContinerText  color={colorbody1} text={textbody1}></ContinerText></div>
-                          <div className='Card7Part5'><img src={src2} alt="" /><ContinerText  color={colorbody2} text={textbody2}></ContinerText>
-</div>                    <div className='Card7Part6'><img src={src3} alt="" /><ContinerText  color={colorbody3} text={textbody3} ></ContinerText></div>
+                          <div className='Card7Part5'><img src={src2} alt="" /><ContinerText  color={colorbody2} text={textbody2}></ContinerText></div>   
+                          <div className='Card7Part6'><img src={src3} alt="" /><ContinerText  color={colorbody3} text={textbody3} ></ContinerText></div>
                           <div className='Card7Part7'><img src={src4} alt=""/><ContinerText  color={colorbody4} text={textbody4} ></ContinerText></div>
                           <Button
                             className='Card7Part8'
@@ -231,6 +231,38 @@ if(Shaps===4)
 
             </>
           )
+}
+if(Shaps===8){
+    return (
+        <>
+            <StyleCard className={className+' Card8'} width={widthcard} height={heightcard}  backgroundcolor={backgroundcolor} borderradius={borderradius} border={border}> 
+
+                <div className='Card8Part1'>  
+
+                    <img src={src} alt=''></img> 
+
+                </div>
+
+                <div className='Card8Part2'>
+
+                      <ContinerText className='Card8Part2_1' color={colorheadar1} text={textheadar1}></ContinerText> 
+                      <ContinerText className='Card8Part2_2' color={colorbody1} text={textbody1}></ContinerText>
+
+                </div>
+
+                <div className='Card8Part3'>
+
+                      <ContinerText className='Card8Part3_1' color={colorheadar2} text={textheadar2}></ContinerText> 
+                      <ContinerText className='Card8Part3_2' color={colorbody2} text={textbody2}></ContinerText>
+
+                </div>
+
+
+
+            </StyleCard>
+
+        </>
+      )
 }
   
   

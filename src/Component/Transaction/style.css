@@ -1,0 +1,16 @@
+.Transaction{
+    display: flex;
+    flex-direction: column;
+}
+.TransactionPart1{
+    display: flex;
+}
+.TransactionPart1 h4{
+    margin: 43px 162px 41px 32px;
+}
+.TransactionPart1 img{
+    margin: 40px 32px 35px 0px;
+}
+.TransactionPart2Card{
+    margin: 0px 32px 27px 32px ;
+}

@@ -117,4 +117,36 @@
     margin: 0px 0px 39px 38px;
 }
 
+/* Card8 */
+.Card8{
+    display: flex;
+    align-items: center;
+    
+}
+.Card8Part1{
+    margin-right: 19px;
+
+}
+.Card8Part2{
+    margin-right: 151px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.Card8Part3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.Card8Part2_1{
+    margin-bottom: 5px;  
+}
+
+.Card8Part3_1{
+    margin-bottom: 5px;   
+}
+
+
+
 

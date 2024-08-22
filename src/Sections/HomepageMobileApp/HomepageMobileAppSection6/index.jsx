@@ -16,7 +16,7 @@ import  Img from '../../../Asset/Images/Mock/Avatar-3.png'
 
 
 //MockData
-import {DataCustomersSlider} from '../../../Mock/DataCustomersSlider/index'
+import {DataCustomersSlider} from '../../../Mock/DataCustomersSlider.js'
 
 export default function HomepageMobileAppSection6() {
 

@@ -1,6 +1,9 @@
 .Transaction{
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    
 }
 .TransactionPart1{
     display: flex;

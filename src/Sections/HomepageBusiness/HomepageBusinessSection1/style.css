@@ -3,4 +3,40 @@
     justify-content: center;
     align-items: center;
 }
+.P3S1LeftSide{
+    margin: 403px 78px 314px 100px;
+}
+.P3S1RightSide{
+    margin: 254px 39px 100px 0px;
+}
+.P3S1LeftSidePart1_1{
+    margin-bottom: 36px;
+    line-height: 73px;
+}
+.P3S1LeftSidePart1_2{
+    margin-bottom: 40px;
+    line-height: 35px;
+}
+.P3S1LeftSidePart2{
+    display: flex;
+    margin-bottom: 63px;
+}
+.P3S1LeftSidePart2 button{
+    margin-right: 32px;
+}
+.P3S1LeftSidePart3{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.P3S1LeftSidePart3 p{
+
+    line-height: 35px;
+}
+.Transaction{
+    position: absolute;
+    top: 827px;
+    right: 55px;
+    
+}
 

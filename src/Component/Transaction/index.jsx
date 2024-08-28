@@ -1,16 +1,25 @@
 import React from 'react'
 import './style.css'
 
-import { DataTransaction } from '../../Mock/DataTransaction'
+//Component
 import Card from '../Card/index'
-import { Continer } from '../../Style/StyledComponent/Continer'
 import ContinerText from '../ContinerText'
+
+//Style
+import { Continer } from '../../Style/StyledComponent/Continer'
 import {H4} from '../../Style/Typograpy/Typo'
+
+//Asset
 import ImgAdd from '../../Asset/Images/Component/Transaction/Add-3.png'
+
+//MockData
+import { DataTransaction } from '../../Mock/DataTransaction'
+
+
 export default function Transaction() {
   return (
     <>
-        <Continer className='Transaction' width={'455'} height={'422'}>
+        <Continer className='Transaction' width={'455'} height={'422'}  backgroundcolor={'#FFFFFF'} borderradius={5}>
 
             <div className="TransactionPart1">
 

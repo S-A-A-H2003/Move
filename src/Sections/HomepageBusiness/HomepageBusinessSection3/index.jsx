@@ -19,14 +19,15 @@ import icon3 from '../../../Asset/Images/P2/P2S3/icon.png'
 export default function HomepageBusinessSection3() {
   return (
     <>
-        <Continer  className="P2S3" backgroundcolor='#F5F6FA' height={'549'}> 
+        <Continer  className="P3S3" backgroundcolor='#F5F6FA' height={'854'}> 
 
                   <Card 
-                  widthcard={392}
-                  heightcard={322}
+                  className="P3S3Part1"
+                  widthcard={604}
+                  heightcard={285}
                   src={icon1} 
-                  textheadar={<H4>Import Music Library</H4>} 
-                  textbody={<SmallText>You can easily import your music<br/> library into our app without having to<br/> search for music again.</SmallText>}
+                  textheadar={<H4>Transfers without a fee</H4>} 
+                  textbody={<SmallText>You can transfer money to your relatives and friends to<br/> accounts in other banks without сommission.</SmallText>}
                   colorbody={'#858A8F'}
                   Shaps={1}
                   >
@@ -35,11 +36,12 @@ export default function HomepageBusinessSection3() {
                   </Card>
 
                   <Card
-                  widthcard={392}
-                  heightcard={322} 
+                  className="P3S3Part2"
+                  widthcard={604}
+                  heightcard={285} 
                   src={icon2} 
-                  textheadar={<H4>Music Without Internet</H4>} 
-                  textbody={<SmallText>Listen to music even when you don't<br/> have Internet access by downloading<br/> it to your smartphone.</SmallText>}
+                  textheadar={<H4>Pay anywhere</H4>} 
+                  textbody={<SmallText>Our payment system cooperates with many services and<br/> stores so we you can safely use our payment system.</SmallText>}
                   colorbody={'#858A8F'}
                   Shaps={1}
                   > 
@@ -47,16 +49,27 @@ export default function HomepageBusinessSection3() {
                   </Card>
 
                   <Card 
-                  widthcard={392}
-                  heightcard={322}
+                  className="P3S3Part3"
+                  widthcard={604}
+                  heightcard={285}
                   src={icon3} 
-                  textheadar={<H4>Music Without Limits</H4>} 
-                  textbody={<SmallText>There are no restrictions on listening to<br/> music in our app, enjoy music<br/> everywhere.</SmallText>}
+                  textheadar={<H4>Increased cashback</H4>} 
+                  textbody={<SmallText>Each month you are presented with a choice of 3 categories of<br/> products with increased cashback choose wisely.</SmallText>}
                   colorbody={'#858A8F'}
                   Shaps={1}
                   >
-
                   </Card>
+
+                  <Card 
+                  className="P3S3Part4"
+                  widthcard={604}
+                  heightcard={285}
+                  src={icon3} 
+                  textheadar={<H4>Free debit card service</H4>} 
+                  textbody={<SmallText>If you have more than $500 on your card, the card service will<br/> cost you free of charge.</SmallText>}
+                  colorbody={'#858A8F'}
+                  Shaps={1}
+                  ></Card>
             
         </Continer>
     </>

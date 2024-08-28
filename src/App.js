@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import './App.css';
 
 import  {routes} from './Route/Route.jsx'
@@ -9,7 +10,9 @@ const useroute =useRoutes(routes)
 
   return (
     <div>
-      {useroute}
+      <Suspense fallback={<div>loading... </div>}>
+        {useroute}
+      </Suspense>
     </div>
   )
 }

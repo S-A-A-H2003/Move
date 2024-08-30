@@ -1,9 +1,30 @@
 .P1S5{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 60px;
 }
-.P1S5 .P1S5LeftSaid{
-  margin: 60px 37px 92px 100px;
+.P1S5RightSidePart1{
+  margin-bottom: 20px;
+  line-height: 70px;
+
 }
-.P1S5 .P1S5RightSide{
-   margin: 208px 61px 34px 138px;
+.P1S5RightSidePart2{
+  margin-bottom: 20px;
+  line-height: 35px;
+
+}
+@media screen and (max-width:800px){
+  .P1S5RightSide{
+    margin-bottom: 100px;
+    margin-top: 20px;
+  
+  }
+  .P1S5LeftSaid img{
+      width:400px ;
+      height:400px ;
+      margin-top: 70px;
+  }
+
 }

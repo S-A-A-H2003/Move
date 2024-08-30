@@ -274,41 +274,10 @@
 
 
 
-@media screen and (max-width:1150px) {
-    .FooterPart1{ 
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        background-image: none;
-        margin-top: 200px;
-        margin-bottom: 20px;
+@media screen and (max-width:800px){
+    .Footer1{
+       display: none;
     }
-    .FooterPart1 div div h1{ 
-        color: #000;
-        font-size: 30px;
-    }
-    .FooterPart2Shape1{
-        display:grid;
-        justify-items: center;
-        text-align: center;
-    } 
-    .FooterPart2{
-        display: grid;
-        justify-items: center;
-        text-align: center;
-    }
-    .FooterPart2Col1 .FooterPart2Col1Part1{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
     
-    }
-    .FooterPart2Col1{
-      margin-bottom: 50px;
-    }
-    .FooterPart3{
-        display: none;
-    }
 }
 

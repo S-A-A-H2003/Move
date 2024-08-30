@@ -50,7 +50,21 @@
    text-decoration: none;
     
 }
-@media screen and (max-width:1000px){
+.HeaderIconList{
+    display: none;
+}
+@media screen and (max-width:800px){
+    .HeaderList{
+         display: none;
+
+    }
+    .HeaderButton{
+        display: none;
+    }
+    .HeaderIconList{
+        display: inline-block;
+        background-color: #000;
+    }
   
   
 }

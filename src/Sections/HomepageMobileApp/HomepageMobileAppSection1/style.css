@@ -1,12 +1,14 @@
 .P2S1{
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
 }
-.P2S1RightSaid .P2S1RightSaid1{
-    margin: 249px 78px 27px 100px;
-
+.P2S1RightSaid1{
+    margin-top: 249px;
 }
 .P2S1LeftSaid{
-    padding: 440px 0px 299px 100px;
+    margin-top: 233px;
 }
 .P2S1LeftSaid1{
    margin-bottom: 35px;
@@ -33,11 +35,38 @@
     right: 300px;
     z-index: 888;
 }
-@media screen and (max-width:1250px){
-    .P2S1{
+@media screen and (max-width:800px){
+    .P2S1LeftSaid{
         display: flex;
         flex-direction: column;
         align-items: center;
+        text-align: center;
+
+    }
+    .P2S1RightSaid1{
+        margin-top: 150px;
+    }
+    .P2S1LeftSaid1 p{
+        font-size: 40px;
+      
+     }
+     .P2S1LeftSaid2 p{
+         font-size: 18px;
+       
+      }
+      .P2S1RightSaid1{
+        width: 400px;
+        
+      }
+      .P2S1RightSaid7{
+        position: relative;
+        top: 0px;
+        right: 0px; 
+    }
+    .P2S1RightSaid8{
+        position: relative;
+        top: 0px;
+        right:0px;
     }
    
     

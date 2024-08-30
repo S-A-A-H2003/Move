@@ -5,22 +5,33 @@
     align-items: center;   
 }
 .P1S3LeftSide{
-    margin-top: 34px;
-}
-.P1S3RightSide{
     display: grid;
     grid-template-columns: auto auto;
+    row-gap: 33px;
+    column-gap: 33px;
     margin: 144px 0px 144px 0px;
 }
+.P1S3RightSide{
+    margin-bottom: 144px;
 
-.P1S3RightSide div{
-    margin: 0px 33px 33px 33px;  
 }
-.P1S3RightSide img{
-    padding: 32px 0px 18px 31px;
+.P1S3RightSidePart1{
+    margin-bottom: 20px;
+    line-height: 70px;
+
 }
-.P1S3RightSide h4{
-    margin: px 0px 19px 31px; 
+.P1S3RightSidePart2{
+    margin-bottom: 20px;
+    line-height: 35px;
+
+}
+
+@media screen and (max-width:800px){
+    .P1S3LeftSide{
+       overflow-x: scroll;
+        
+        
+    }
 }
 
 

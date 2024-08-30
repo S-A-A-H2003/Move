@@ -1,10 +1,30 @@
 .P1S4{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
 }
 .P1S4LeftSide{
- margin:200px 0px 43px 100px;
+    margin:200px 0px 43px 100px;
+
+}
+.P1S4LeftSidePart1{
+    margin-bottom: 20px;
+    line-height: 70px;
+
+}
+.P1S4LeftSidePart2{
+    margin-bottom: 20px;
+    line-height: 35px;
+
+}
+@media screen and (max-width:800px){
+    .P1S4RightSide img{
+        width:400px ;
+        height:400px ;
+        margin-top: 70px;
+    }
+  
 }
 
 

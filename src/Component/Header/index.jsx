@@ -185,6 +185,7 @@ export default class Header extends Component {
 
            </div> 
 
+           <div className="HeaderIconList">=</div>
            <div className="HeaderButton">
             <Button height='57' width='179' text={<BodyText to='/PageSignUp'>Get Started</BodyText>} ></Button>
            </div>

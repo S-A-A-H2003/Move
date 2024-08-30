@@ -23,32 +23,7 @@ className,Shaps,widthcard,heightcard,backgroundcolor,borderradius,border
   //Card1 & Card2 & Card4 & Card5 & Card6 & Card7
   //Card3 & Card6
   //Card7    
-if(Shaps===1)
 
-    {
-
-        return (
-
-            <>
-
-                <StyleCard 
-                 className={className+' CardShape1'} 
-                 width={widthcard} height={heightcard} 
-                 backgroundcolor={backgroundcolor}
-                 borderradius={borderradius} 
-                 border={border}
-                > 
-
-                    <img src={src} alt=''></img> 
-                    <ContinerText color={colorheadar} text={textheadar} ></ContinerText>
-                    <ContinerText color={colorbody} text={textbody}></ContinerText>
-
-                </StyleCard>
-
-            </>
-
-        )
-    }
 if(Shaps===2)
 
     {

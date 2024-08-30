@@ -20,15 +20,13 @@ export default function HomepageAppDesktopSection6() {
   return (
     <>
         <Continer backgroundcolor={'#F5F6FA'} className='P1S6' >
-            <Continer width='783' height='146' className='P1S6Part1'>
+            <div className='P1S6Part1'>
                 <ContinerText 
-                 width={'783'}
-                 height={'146'}
                  text={<Display2>Customers are loving our<br/> Move messenger</Display2>}
                  >
                 </ContinerText>
-            </Continer>
-            <Continer width='1240' height='386' className='P1S6Part2'>
+            </div>
+            <div className='P1S6Part2'>
                 <Card
                  widthcard={'392'}
                  heightcard={'386'}
@@ -86,17 +84,15 @@ export default function HomepageAppDesktopSection6() {
                  Shaps={3}     
                 ></Card>
 
-            </Continer>
-            <Continer width='214' height='24' className='P1S6Part3'>
+            </div>
+            <div className='P1S6Part3'>
                 <ContinerText 
-                    width={'182'}
-                    height={'24'}
                     text={<BodyText>See all testmonials</BodyText>}
                     color={'#397EFF'}
-                    > 
+                > 
                 </ContinerText>
                  <img src={iconarrowright} alt=''></img>
-            </Continer>
+            </div>
         </Continer>
 
     </>

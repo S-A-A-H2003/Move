@@ -1,13 +1,9 @@
 .P3S1{
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     align-items: center;
-}
-.P3S1LeftSide{
-    margin: 403px 78px 314px 100px;
-}
-.P3S1RightSide{
-    margin: 254px 39px 100px 0px;
+    padding-top: 233px;
 }
 .P3S1LeftSidePart1_1{
     margin-bottom: 36px;
@@ -30,13 +26,50 @@
    align-items: center;
 }
 .P3S1LeftSidePart3 p{
-
     line-height: 35px;
+}
+.P3S1RightSide{
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 .Transaction{
     position: absolute;
-    top: 827px;
+    top: 864px;
     right: 55px;
     
 }
-
+@media screen and (max-width:800px){
+    .P3S1LeftSide{
+        margin-left: 20px;
+    }
+    .P3S1LeftSidePart1_1 p{
+        font-size: 50px;
+    }
+    .P3S1LeftSidePart1_2 p{
+        font-size: 18px;
+    }
+    .P3S1LeftSidePart3{
+        display: flex;
+        justify-content:start;
+     }
+     .P3S1LeftSidePart3 img{
+         margin-right: 15px;
+     }
+    .P3S1RightSide img{
+        width: 400px;
+    }
+    .Transaction{
+        position: relative;
+        top: 0px;
+        right: 0px;
+        
+    } 
+}
+@media screen and (max-width:1250px){
+    .Transaction{
+        position: relative;
+        top: 0px;
+        right: 0px;
+        
+    } 
+}

@@ -10,9 +10,6 @@
  .P1S6Part1 p{
     text-align: center;
  }
- .P1S6Part3{
-    margin-bottom: 142px;
- }
 .P1S6Part2{
     display: flex;
     flex-wrap: wrap;
@@ -25,4 +22,11 @@
 }
 .P1S6Part3{
     display: flex;
+    margin-bottom: 142px;
+}
+@media screen and (max-width:800px){
+    .P1S6Part2 div{
+        margin-bottom: 32px;
+    }
+    
 }

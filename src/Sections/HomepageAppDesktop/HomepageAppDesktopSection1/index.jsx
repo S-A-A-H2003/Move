@@ -16,11 +16,11 @@ export default function HomepageAppDesktopSection1() {
     <>
         <Continer className="P1S1">
             <div className="P1S1UpPart">
-                <ContinerText  width='963' height='194' color='#333333' text={<H1>A messenger that is<br/> ahead of its times</H1>}></ContinerText> 
-                <ContinerText className="P1S1UpPart2" width='813' height='79' color='#858A8F' text={<BodyText>Try the new Move messenger!It will definitely impress you with its amazing features<br/> that will make it easier for you to communicate between you friends.</BodyText>}></ContinerText> 
-                <div className="P1S1Button">
-                    <Button backgroundcolor="#377DFF"  text={<BodyText>Get Started</BodyText>}></Button>
-                    <Button  backgroundcolor="#E5F1FF" color='#377DFF' text={<BodyText>view more</BodyText>}></Button>
+                <ContinerText className="P1S1UpPart1"  color='#333333' text={<H1>A messenger that is<br/> ahead of its times</H1>}></ContinerText> 
+                <ContinerText className="P1S1UpPart2"  color='#858A8F' text={<BodyText>Try the new Move messenger!It will definitely impress you with its amazing features<br/> that will make it easier for you to communicate between you friends.</BodyText>}></ContinerText> 
+                <div className="P1S1UpPartButton">
+                  <Button backgroundcolor="#377DFF"  text={<BodyText>Get Started</BodyText>}></Button>
+                  <Button  backgroundcolor="#E5F1FF" color='#377DFF' text={<BodyText>view more</BodyText>}></Button>
                 </div>
             </div>
 

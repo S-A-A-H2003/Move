@@ -23,5 +23,3 @@
 ---
 
 **[Click here to visit the project website!](m-o-v-e.netlify.app)**
-
-![Project GIF](https://via.placeholder.com/200x100.gif)

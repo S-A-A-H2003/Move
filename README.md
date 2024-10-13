@@ -1,6 +1,6 @@
-## 🌐 Explore the Project
+ß## 🌐 Explore the Project
 
-[![Project Website](https://img.shields.io/badge/Visit-Project-blue?style=for-the-badge&logo=internet-explorer)](https://Move.netlify.app)
+[![Project Website](https://img.shields.io/badge/Visit-Project-blue?style=for-the-badge&logo=internet-explorer)](m-o-v-e.netlify.app)
 
 ---
 
@@ -17,9 +17,11 @@
 - 🎨 **Modern UI**: Clean and minimalistic design.
 - 🌍 **Cross-Browser Compatibility**: Works perfectly on all major browsers.
 
-[![Responsive](https://img.shields.io/badge/Responsive-Yes-brightgreen?style=flat-square)](https://Move.netlify.app)
-[![Fast Loading](https://img.shields.io/badge/Loading%20Speed-Fast-blue?style=flat-square)](https://Move.netlify.app)
+[![Responsive](https://img.shields.io/badge/Responsive-Yes-brightgreen?style=flat-square)](m-o-v-e.netlify.app)
+[![Fast Loading](https://img.shields.io/badge/Loading%20Speed-Fast-blue?style=flat-square)](m-o-v-e.netlify.app)
 
 ---
 
 **[Click here to visit the project website!](m-o-v-e.netlify.app)**
+
+![Project GIF](https://via.placeholder.com/200x100.gif)

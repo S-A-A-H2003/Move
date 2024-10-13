@@ -1,4 +1,4 @@
-ß## 🌐 Explore the Project
+### 🌐 Explore the Project
 
 [![Project Website](https://img.shields.io/badge/Visit-Project-blue?style=for-the-badge&logo=internet-explorer)](https://m-o-v-e.netlify.app/)
 

@@ -81,11 +81,11 @@ export default class Header extends Component {
                             
                             <List
                             color={'#FFFFFF'}
-                            text={<BodyText>Event</BodyText>}></List>
+                            text={<BodyText><del>Event</del></BodyText>}></List>
                             <List
                             color={'#FFFFFF'}
-                            text={<BodyText>Software</BodyText>}
-                            to={PATH.Software}
+                            text={<BodyText><del>Software</del></BodyText>}
+                            // to={PATH.Software}
                             ></List>
                            
                         </ul>
@@ -104,32 +104,32 @@ export default class Header extends Component {
                             <List
                             color={'#FFFFFF'}
                             text={<BodyText>About Us</BodyText>}
-                            to={PATH.AboutUs}
+                            to={PATH.Legal}
                             ></List>
                             <List
                             color={'#FFFFFF'}
-                            text={<BodyText>Careers</BodyText>}
-                            to={PATH.Careers}
+                            text={<BodyText><del>Careers</del></BodyText>}
+                            // to={PATH.Careers}
                             ></List>
                             <List
                             color={'#FFFFFF'}
-                            text={<BodyText>Case Studies</BodyText>}
-                            to={PATH.CaseStudies}
+                            text={<BodyText><del>Case Studies</del></BodyText>}
+                            // to={PATH.CaseStudies}
                             ></List>
                             <List
                             color={'#FFFFFF'}
-                            text={<BodyText>Pricing</BodyText>}
+                            text={<BodyText><del>Pricing</del></BodyText>}
                             ></List>
                              <ul>
                                 <List
                                 color={'#FFFFFF'}
-                                text={<BodyText>Plans</BodyText>}
-                                to={PATH.PricingPlans}
+                                text={<BodyText><del>Plans</del></BodyText>}
+                                // to={PATH.PricingPlans}
                                 ></List>
                                 <List
                                 color={'#FFFFFF'}
-                                text={<BodyText>Plans Table</BodyText>}
-                                to={PATH.PricingPlansTable}
+                                text={<BodyText><del>Plans Table</del></BodyText>}
+                                // to={PATH.PricingPlansTable}
                                 ></List>
                              </ul>
                         </ul>
@@ -142,20 +142,20 @@ export default class Header extends Component {
                     <div className={this.state.show3?'Show SubList':'DontShow SubList'}>
                         <ul>
                             <List
-                            text={<H5>Blog</H5>}
+                            text={<H5><del>Blog</del></H5>}
                             ></List>
                             <List
                             color={'#FFFFFF'}
-                            text={<BodyText>Blog Listing</BodyText>}
+                            text={<BodyText><del>Blog Listing</del></BodyText>}
                             ></List>
                             <List
                             color={'#FFFFFF'}
-                            text={<BodyText>Blog Article</BodyText>}
-                            to={PATH.BlogArticle}
+                            text={<BodyText><del>Blog Article</del></BodyText>}
+                            // to={PATH.BlogArticle}
                             ></List>
                             <List
                             color={'#FFFFFF'}
-                            text={<BodyText>Newsroom</BodyText>}></List>        
+                            text={<BodyText><del>Newsroom</del></BodyText>}></List>        
                         </ul>            
                         </div>
                 </li>
@@ -170,13 +170,13 @@ export default class Header extends Component {
                                             ></List>
                                             <List
                                             color={'#FFFFFF'}
-                                            text={<BodyText>Portfolio</BodyText>}
-                                            to={PATH.Portfolio}
+                                            text={<BodyText><del>Portfolio</del></BodyText>}
+                                            // to={PATH.Portfolio}
                                             ></List>
                                             <List
                                             color={'#FFFFFF'}
-                                            text={<BodyText>Single Case</BodyText>}
-                                            to={PATH.PortfolioSingleCase}
+                                            text={<BodyText><del>Single Case</del></BodyText>}
+                                            // to={PATH.PortfolioSingleCase}
                                             ></List>
                                     </ul> 
                         </div>
